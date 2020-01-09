@@ -69,7 +69,9 @@
         "copy-minified-html": "toolset/thingy-build-system/pwa/copy-minified-html.sh",
         "copy-deploy-worker": "toolset/thingy-build-system/pwa/copy-deploy-worker.sh",
         "copy-ressources": "sources/ressources/copyscript.sh",
-        "release": "toolset/thingy-build-system/pwa/release-script.sh"
+        "release": "toolset/thingy-build-system/pwa/release-script.sh",
+        "clean-css": "cleancss -O2 'specialComments:0' /home/lenny/thingies/arduino-ble-experiment/toolset/build/css/dirty/index.css --output /home/lenny/thingies/arduino-ble-experiment/toolset/build/css/clean/index.css",
+        "purge-css": "purgecss --css /home/lenny/thingies/arduino-ble-experiment/toolset/build/css/clean/index.css --content /home/lenny/thingies/arduino-ble-experiment/toolset/build/html/pretty/index.html --out /home/lenny/thingies/arduino-ble-experiment/toolset/build/css/purged"
     },
     "repository": {
         "type": "git",
