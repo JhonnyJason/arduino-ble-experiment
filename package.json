@@ -98,7 +98,7 @@
         "purgecss": "^1.4.2",
         "stylus": "^0.54.7",
         "webpack": "^4.41.5",
-        "webpack-cli": "^3.3.10"
+        "webpack-cli": "^3.3.12"
     },
     "type": "pwa"
 }
