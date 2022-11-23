@@ -91,7 +91,7 @@
         "thingy-module-gen": "^0.1.2",
         "thingymodulecreate": "^0.1.6",
         "thingysync": "^0.1.1",
-        "browser-sync": "^2.26.7",
+        "browser-sync": "^2.27.10",
         "clean-css-cli": "^4.3.0",
         "html-minifier": "^4.0.0",
         "pug-cli": "^1.0.0-alpha6",
